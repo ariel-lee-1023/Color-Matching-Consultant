@@ -142,6 +142,6 @@ Please keep `SKILL.md` lean — new depth belongs in a reference file, with a po
 
 ## License
 
-Released under the [MIT License](LICENSE). Copyright © 2026 Ariel Lee.
+MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
 
 The license covers this repository's original text. It does not extend to the underlying source books, which remain the property of their respective copyright holders.
