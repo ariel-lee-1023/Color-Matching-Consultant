@@ -81,7 +81,7 @@ zip -r color-matching-art-consultant.zip color-matching-art-consultant/
 Then add it via **Settings → Capabilities → Skills** in the Claude app, or drop the folder into your skills directory for Claude Code:
 
 ```bash
-git clone https://github.com/<your-username>/color-matching-art-consultant.git
+git clone https://github.com/ariel-lee-1023/Color-Matching-Consultant.git
 cp -r color-matching-art-consultant/color-matching-art-consultant ~/.claude/skills/
 ```
 
