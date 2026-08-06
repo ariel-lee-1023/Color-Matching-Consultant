@@ -1,7 +1,7 @@
 # Color-Matching Art Consultant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-3.0.1-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.0.2-green.svg)](CHANGELOG.md)
 [![Type: Agent Skill](https://img.shields.io/badge/type-agent%20skill-8A2BE2.svg)](#installation)
 
 An AI agent skill for **color matching, palette construction, and pigment mixing** — for painting, illustration, concept art, interiors, and design.
@@ -45,18 +45,29 @@ It always separates the three registers that get confused in color advice: **vis
 ├── .gitignore
 └── color-matching-art-consultant/       ← the skill itself (upload this folder)
     ├── SKILL.md                          ← operating logic, §1–§12
-    ├── reference-pigment-mixing.md
-    ├── reference-color-histories.md
-    ├── reference-perception-interaction.md
-    ├── reference-notation-measurement.md
-    └── reference-harmony-palette.md
+    └── references/                       ← deep content, loaded on demand
+        ├── reference-pigment-mixing.md
+        ├── reference-color-histories.md
+        ├── reference-perception-interaction.md
+        ├── reference-notation-measurement.md
+        └── reference-harmony-palette.md
+```
+
+This is the standard agent-skill layout — `SKILL.md` at the root of the skill folder, everything deep in `references/`:
+
+```
+$SKILLS_HOME/<library-name>/
+├── SKILL.md
+└── references/
 ```
 
 `SKILL.md` is deliberately lean (~200 lines) and orchestration-focused. The deep content lives in five companion reference files — one per source book — that the agent loads **only when a request needs that book's depth**. This is the progressive-disclosure pattern: small always-loaded file, heavy content on demand.
 
-> **Note:** the reference files cross-reference each other by bare filename. Keep all six files in the same directory.
+> **Note:** `SKILL.md` points at the references by their `references/…` path, and the reference files cross-reference *each other* by bare filename. Keep all five inside `references/`, and keep `references/` beside `SKILL.md`.
 
 ### The five reference files
+
+All live in `references/`.
 
 | File | Covers |
 |---|---|

@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ---
 
+## v3.0.2 — Standard skill layout
+
+No change to the skill's behavior, logic, or reference content. Layout only:
+
+- Moved the five reference files into a **`references/`** subfolder, so the skill now matches the conventional agent-skill layout:
+
+  ```
+  $SKILLS_HOME/<library-name>/
+  ├── SKILL.md
+  └── references/
+  ```
+
+- Re-pointed all 35 reference citations in `SKILL.md` (frontmatter `metadata.sources`, the intro manifest, and §3–§12) from `reference-*.md` to `references/reference-*.md`.
+- Reference filenames are unchanged, and the reference files' cross-references to *each other* still resolve untouched, since all five remain siblings inside `references/`.
+- Updated the repository-structure tree, the reference-file table, and the co-location note in `README.md`.
+
 ## v3.0.1 — Repository packaging
 
 No change to the skill's behavior, logic, or reference content. Packaging only, for public release:
