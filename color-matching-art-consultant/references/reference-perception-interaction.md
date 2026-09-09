@@ -55,10 +55,10 @@
 ## §7. Vibrating and vanishing boundaries
 
 - **Vibrating boundary:** two high-chroma colors of *similar value* — especially near-complements — set side by side make the shared edge flicker and buzz; the boundary won't sit still (Albers — ch. on vibrating boundaries).
-- **Vanishing boundary:** two colors of the *same value* but different hue lose their edge; the boundary dissolves and the shapes bleed together (Albers — ch. on vanishing boundaries).
+- **Vanishing boundary:** colors close in value can produce a weak or dissolving edge in the tested arrangement; hue difference alone does not guarantee the desired separation (Albers — ch. on vanishing boundaries).
 - These are opposite failure modes of the same variable — the value relationship at the edge:
   - Buzzing edge you didn't want → **lower one color's chroma**, shift their values apart, or separate them with a thin neutral/line.
-  - Dissolving edge you wanted crisp → the two are **equal in value**; separate them by value, not by hue. Two hues at the same value will never hold a hard edge.
+  - Dissolving edge you wanted crisp → check whether values are too close in the actual surround. Try separating values, then compare hue/chroma and edge treatment; equal value alone does not establish that a crisp boundary is impossible.
 
 ## §8. Quantity, proportion, and film vs. surface color
 

@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ---
 
+## v3.1.1 — Installation and contextual reference rules (2026-09-09)
+
+- Fixed clone/copy working directories and documented the installed entrypoint.
+- Made palette ratios, role selection, notation, watercolor handling, and edge diagnostics contextual rather than mandatory.
+- Corrected the notation section pointer and included NOTICE.md in the layout.
+
 ## v3.1.0 — Expert core and project guidance (2026-09-09)
 
 - Rewrote the master as a connected first-person consulting voice, with task-triggered reference loading at the end.

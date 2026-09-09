@@ -21,7 +21,7 @@ Each family is a *relationship on the hue wheel*, with a characteristic feel and
 - **Analogous** — 2–4 neighbors on the wheel (e.g. YR–Y–GY). Feel: harmonious, natural, easy. Build: let one neighbor dominate, the others support. Watch-out: low contrast; needs value separation or a small complementary accent to avoid monotony.
 - **Complementary** — two opposites (e.g. B / YR). Feel: high-energy, vibrant, stable. Build: one dominant, the other as a smaller accent; rarely 50/50. Watch-out: equal areas at full chroma buzz and fight (cross-ref `reference-perception-interaction.md` §7); mute one or shrink it.
 - **Split-complementary** — a hue + the two neighbors of its opposite (e.g. B / YR-adjacent Y and R). Feel: complementary contrast with less tension; more forgiving. Build: one dominant, two accents. Watch-out: can feel unfocused if all three run equal.
-- **Triadic** — three hues evenly spaced (e.g. R / Y / B). Feel: balanced, lively, playful. Build: **one dominant, two subordinate** — never three equals. Watch-out: three full-chroma hues = chaos; let one lead.
+- **Triadic** — three hues evenly spaced (e.g. R / Y / B). Feel: balanced, lively, playful. Build: try **one dominant, two subordinate** when a clear focal hierarchy is wanted. Equal shares or several strong hues are alternatives to test against the intended effect, not automatic failures.
 - **Tetradic / double-complementary** — two complementary pairs (a rectangle or square on the wheel). Feel: rich, complex. Build: pick one hue to dominate and keep the other three in support; balance warm against cool. Watch-out: the hardest to balance; easy to overload.
 - **Square** — four hues evenly spaced. As tetradic but more evenly tense; same "let one lead" rule.
 - **Near-neutral / achromatic** — grays, browns, off-whites, or one hue barely above neutral. Feel: quiet, elegant, sophisticated. Build: rely on value and subtle temperature shifts; add at most one saturated accent. Watch-out: can read drab without a clear value structure or a single accent.
@@ -30,8 +30,8 @@ Each family is a *relationship on the hue wheel*, with a characteristic feel and
 ## §2. Proportion & accent ratios
 
 - Palettes read best with a clear hierarchy, not equal thirds. A useful **starting heuristic is ~60 / 30 / 10** — dominant / secondary / accent — adjusted to taste, not a law (Sutton — proportion and dominance).
-- The **accent carries the highest chroma in the smallest area.** A small patch of strong color energizes; the same color across a large field overwhelms (Sutton — accent color; this is the same effect Munsell frames as area-balance, `reference-notation-measurement.md` §7, and Albers as the quantity effect, `reference-perception-interaction.md` §8).
-- Inverse rule for large areas: the bigger the area, the **lower the chroma** it can carry comfortably. Big fields want muted color; save full chroma for accents.
+- An accent **can use high chroma in a small area** to attract attention; value, placement, or temperature contrast can also establish its role. A small patch of strong color energizes; the same color across a large field overwhelms (Sutton — accent color; this is the same effect Munsell frames as area-balance, `reference-notation-measurement.md` §7, and Albers as the quantity effect, `reference-perception-interaction.md` §8).
+- For a restrained scheme, try reducing chroma as the dominant area grows. A large saturated field may be intentional; judge it against the brief and surrounding colors.
 - Compensate unequal strength with area: to balance a weak color against a strong one, give the weak color **more space** (Sutton — balancing unequal colors).
 
 ## §3. Warm-advance / cool-recede
@@ -43,7 +43,7 @@ Each family is a *relationship on the hue wheel*, with a characteristic feel and
 ## §4. Spectral balance
 
 - A palette that spans **both warm and cool** tends to feel resolved; an all-warm or all-cool palette can feel one-note (Sutton — spectral/temperature balance).
-- Practical move: in a temperature-dominant palette, include a small **temperature balancer** (the parent skill's palette role) — a cool accent in a warm scheme, or a warm accent in a cool one — to give the eye relief and a point of contrast.
+- Optional move: if a temperature-dominant palette needs more contrast, try a small **temperature balancer** — a cool accent in a warm scheme, or a warm accent in a cool one — to give the eye relief and a point of contrast.
 - This pairs with value structure: a resolved palette usually balances *both* temperature (warm/cool) *and* value (light/dark), not just hue.
 
 ## §5. Mood-to-palette associations (suggestive)
@@ -63,23 +63,25 @@ Offer these as options a user can accept or reject, phrased as "often reads as�
 
 ## §6. Building a palette step by step
 
-Ties directly to the parent skill's palette roles (anchor, accent, bridge, neutral, shadow, highlight, temperature balancer):
+Use the parent skill's palette roles as options for the composition, not a list to fill:
 
-1. **Set the anchor.** Choose the dominant color as `H V/C` (hue, value, chroma) — this fixes the palette's identity and temperature.
-2. **Choose a harmony family** (§1) based on the desired feel and the anchor.
-3. **Assign roles.** Anchor (largest area), accent (small, highest chroma), bridge (a hue between anchor and accent to ease the transition), neutral (a grayed or earth tone for rest), plus shadow and highlight for value range, and a temperature balancer if the scheme is temperature-dominant (§4).
-4. **Set proportions** (§2) — start ~60/30/10, adjust; give weaker colors more area to balance stronger ones.
-5. **Check value spread and chroma hierarchy last.** Squint: is there a clear light-to-dark range, and does exactly one color carry the top chroma? If everything is mid-value or everything is full-chroma, fix that before finalizing (§7).
+1. **Establish the intended effect and value structure.** Identify the main field and where attention should go; a deliberately compressed value range can suit the brief.
+2. **Choose an anchor and, if useful, a harmony family** (§1). Describe hue, value, and chroma in ordinary terms; use `H V/C` only when notation helps, with estimates labelled.
+3. **Assign the roles the composition needs.** An anchor and accent may be enough. Add a bridge, neutral, shadow, highlight, or temperature balancer only if it solves an identified problem.
+4. **Try proportions** (§2). ~60/30/10 is one starting option for a three-role scheme; adjust area, value, and chroma to the intended hierarchy.
+5. **Check the result in context.** Revisit value structure and the focal relationship throughout construction. Several colors may share high chroma, and an accent need not be the most saturated color. Revise what prevents the desired effect (§7).
 
 ## §7. Palette failure modes
 
-| Symptom | Cause | Fix |
+Treat these as diagnostic hypotheses and trials; confirm the cause in the actual composition.
+
+| Symptom | Possible cause | Trial |
 |---|---|---|
 | Chaotic / everything shouting | Chroma overload — too many colors at full strength | Keep one accent at full chroma; mute the rest |
 | Flat / lifeless despite many hues | Value collapse — all mid-value | Spread values; add a dark and a light (cross-ref `reference-perception-interaction.md` §6) |
 | One-note / airless | Temperature monotony — all warm or all cool | Add a small opposite-temperature balancer (§4) |
-| No focal point | No dominant; colors in equal thirds | Impose a 60/30/10 hierarchy (§2) |
-| Accent doesn't read as an accent | It's too large, or not the highest chroma | Shrink it and/or raise its chroma above the field |
+| No focal point | No dominant; colors in equal thirds | Try a clearer hierarchy; 60/30/10 is one option (§2) |
+| Accent doesn't read as an accent | Its area or contrast does not direct attention | Test area, value, chroma, temperature, or placement |
 | Complementary pair fights / buzzes | Equal areas, equal value, both full chroma | Make one dominant, mute or shift the other (cross-ref `reference-perception-interaction.md` §7) |
 
 ---

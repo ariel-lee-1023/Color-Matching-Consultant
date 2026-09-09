@@ -1,6 +1,6 @@
 # Reference — Notation & Measurement
 
-> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from A. H. Munsell, *A Color Notation* (1905). Attribution is at chapter/concept level. This file is the disambiguation-and-comparison scaffold: it turns vague color talk into three measured dimensions and back again. The parent skill’s Loading depth table selects this module when its methods are relevant. Deploy it *lightly* — as a communication tool, never as a technical tax (see §8 below).
+> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from A. H. Munsell, *A Color Notation* (1905). Attribution is at chapter/concept level. This file is the disambiguation-and-comparison scaffold: it turns vague color talk into three measured dimensions and back again. The parent skill’s Loading depth table selects this module when its methods are relevant. Deploy it *lightly* — as a communication tool, never as a technical tax (see §9 below).
 
 **Contents**
 - [§1. The three measured dimensions](#1-the-three-measured-dimensions)

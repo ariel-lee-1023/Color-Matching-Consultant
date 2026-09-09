@@ -17,7 +17,7 @@
 ## §1. Core Mixing Principles
 
 - **Additive (light)** primaries are red, blue, green; all three combined → **white**; secondaries are *brighter* than primaries. This is the screen/projection world.
-- **Subtractive (pigment)** primaries are **red, yellow, blue**; all three combined → a dull near-**black**; secondaries are always **darker and less pure** than the primaries. This is the paint world.
+- **Subtractive (pigment)**: this traditional painting framework uses **red, yellow, blue** as primaries. Mixing can reduce chroma and produce dark neutrals, but the result depends on the actual pigments, proportions, opacity, and ground; do not assume every secondary is darker than both inputs.
 - Pigment mixing absorbs ("subtracts") wavelengths; the more colors added, the more light absorbed, the closer to black/mud.
 - **No pigment is a perfect primary** — each leans toward one neighbor (its *bias*).
 - Secondaries: red+yellow=orange; yellow+blue=green; blue+red=violet. Tertiaries: a primary + its adjacent secondary (red-orange, yellow-orange, yellow-green, blue-green, blue-violet, red-violet).
@@ -86,7 +86,7 @@ Bias is read by brushing the color thinly on white (its undertone shows). Each p
 - **Tint** = + white (oil/acrylic/gouache) or + water (watercolour, paper shows through). **Shade** = + black or + complement. **Tone** = relative lightness/darkness; also a color + gray. **Value** = synonym for tone.
 - Adding white reduces transparency and can read **chalky** (e.g., cadmium red + titanium white → opaque pink). Transparent colors (alizarin) tint more subtly.
 - **Blues + white shift:** ultramarine (red/violet bias) + white drifts toward **lavender/lilac**; cerulean + white stays a cleaner pale blue. Phthalo's tinting strength dominates white mixes — add it in tiny amounts.
-- **Watercolour:** lighten with water, not white; use clean water (dirty water muddies everything). Adding white = "body colour" (Chinese white / zinc). Don't mix the water and white methods in one painting.
+- **Watercolour:** for transparent washes, lighten by dilution with clean water so the paper contributes more light. White introduces body colour and changes opacity. Choose or combine these approaches deliberately for the desired surface; compare a test swatch rather than treating mixed handling as forbidden.
 - **Pastel:** manufacturers supply numbered tint/shade ranges (low = light, mid = purest, high = dark); pressure also lightens/darkens.
 
 ## §6. Medium-Specific Behavior

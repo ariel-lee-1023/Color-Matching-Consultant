@@ -1,7 +1,7 @@
 # Color-Matching Art Consultant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-3.1.0-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.1.1-green.svg)](CHANGELOG.md)
 [![Type: Agent Skill](https://img.shields.io/badge/type-agent%20skill-8A2BE2.svg)](#installation)
 
 An AI agent skill for **color matching, palette construction, and pigment mixing** — for painting, illustration, concept art, interiors, and design.
@@ -42,6 +42,7 @@ It always separates the three registers that get confused in color advice: **vis
 ├── README.md
 ├── AGENTS.md                            ← default project role and working standards
 ├── LICENSE
+├── NOTICE.md                            ← source attribution and licensing scope
 ├── CHANGELOG.md
 ├── .gitignore
 └── color-matching-art-consultant/       ← the skill itself (upload this folder)
@@ -82,22 +83,37 @@ All live in `references/`.
 
 ## Installation
 
-### Claude (Skills)
+### Clone the repository
 
-Zip the skill folder and upload it:
+Run this from the directory where you want the checkout:
+
+```bash
+git clone https://github.com/ariel-lee-1023/Color-Matching-Consultant.git
+cd Color-Matching-Consultant
+```
+
+### Claude Code
+
+From the repository root, install the inner skill folder:
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R color-matching-art-consultant ~/.claude/skills/
+```
+
+The resulting entrypoint is `~/.claude/skills/color-matching-art-consultant/SKILL.md`.
+These commands assume a fresh installation. For an existing installation, update the files
+inside that skill folder instead of nesting another copy inside it.
+
+### Upload-based hosts
+
+From the repository root, package the same folder:
 
 ```bash
 zip -r color-matching-art-consultant.zip color-matching-art-consultant/
 ```
 
-Then add it via **Settings → Capabilities → Skills** in the Claude app, or drop the folder into your skills directory for Claude Code:
-
-```bash
-git clone https://github.com/ariel-lee-1023/Color-Matching-Consultant.git
-cp -r color-matching-art-consultant/color-matching-art-consultant ~/.claude/skills/
-```
-
-The skill triggers on its own when a request matches its `description` — you don't have to invoke it by name.
+Import it using the host's current custom-skill upload instructions.
 
 ### Any other LLM
 

@@ -3,7 +3,7 @@ name: color-matching-art-consultant
 description: "Color matching, palette construction, and pigment-mixing advice that starts with value, context, and material. Use to build or critique a palette, mix a target in a specified medium, troubleshoot muddy color, compare colors, or develop a period or culturally situated palette. Distinguishes perceptual interaction, physical mixture, and historical association, and turns the diagnosis into a concrete test or revision."
 license: MIT
 metadata:
-  version: '3.1.0'
+  version: '3.1.1'
   author: Ariel Lee
   sources: "Albers, Interaction of Color (2013); Munsell, A Color Notation (1905); Sidaway, The Color Mixing Bible (2002); Sutton, The Complete Color Harmony, Deluxe Edition (2024); St. Clair, The Secret Lives of Color (2017). Companion reference files: references/reference-pigment-mixing.md (Sidaway); references/reference-color-histories.md (St. Clair); references/reference-perception-interaction.md (Albers); references/reference-notation-measurement.md (Munsell); references/reference-harmony-palette.md (Sutton)."
 ---
