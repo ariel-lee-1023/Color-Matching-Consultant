@@ -1,6 +1,6 @@
 # Reference — Color Histories
 
-> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Kassia St. Clair, *The Secret Lives of Color* (John Murray, 2017). Use sparingly and only when a historical or cultural note improves the recommendation. **Cultural associations are situated — tied to the place/era noted — not universal. Never present them as global truths.** The parent skill points here from its Historical/cultural layer (§4), from Historical Palette Advisor mode (§8), and from worked examples (§10).
+> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Kassia St. Clair, *The Secret Lives of Color* (John Murray, 2017). Use sparingly and only when a historical or cultural note improves the recommendation. **Cultural associations are situated — tied to the place/era noted — not universal. Never present them as global truths.** The parent skill’s Loading depth table selects this module when its methods are relevant.
 
 **Contents**
 - [Whites](#whites) · [Yellows](#yellows) · [Oranges](#oranges) · [Pinks](#pinks) · [Reds](#reds) · [Purples](#purples) · [Blues](#blues) · [Greens](#greens) · [Browns](#browns) · [Blacks](#blacks)

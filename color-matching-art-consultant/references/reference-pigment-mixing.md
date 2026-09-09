@@ -1,6 +1,6 @@
 # Reference — Pigment Mixing
 
-> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Ian Sidaway, *The Color Mixing Bible* (Quarto, 2002). Named pigments and combinations are examples of *behavior*, not brand guarantees. Always anchor advice to the user's actual medium. The parent skill points here from its Mixing layer (§4), from Paint-Mixing Troubleshooting mode (§8), and from several worked examples (§10).
+> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Ian Sidaway, *The Color Mixing Bible* (Quarto, 2002). Named pigments and combinations are examples of *behavior*, not brand guarantees. Always anchor advice to the user's actual medium. The parent skill’s Loading depth table selects this module when its methods are relevant.
 
 **Contents**
 - [§1. Core Mixing Principles](#1-core-mixing-principles)

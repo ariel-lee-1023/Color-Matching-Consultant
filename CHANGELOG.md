@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ---
 
+## v3.1.0 — Expert core and project guidance (2026-09-09)
+
+- Rewrote the master as a connected first-person consulting voice, with task-triggered reference loading at the end.
+- Consolidated repeated procedures and examples while preserving value-first diagnosis, palette roles, medium-specific mixing, and situated history.
+- Added root `AGENTS.md` and updated reference introductions and README pointers to the new structure.
+
 ## v3.0.2 — Standard skill layout
 
 No change to the skill's behavior, logic, or reference content. Layout only:

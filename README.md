@@ -1,7 +1,7 @@
 # Color-Matching Art Consultant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-3.0.2-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.1.0-green.svg)](CHANGELOG.md)
 [![Type: Agent Skill](https://img.shields.io/badge/type-agent%20skill-8A2BE2.svg)](#installation)
 
 An AI agent skill for **color matching, palette construction, and pigment mixing** — for painting, illustration, concept art, interiors, and design.
@@ -22,7 +22,7 @@ Give it a color, a palette, an artwork description, a mood, or a failing paint m
 
 It always separates the three registers that get confused in color advice: **visual interaction** (the surround changed what the eye reports), **paint mixture** (the pigment physically changed), and **historical association** (a culture in a period meant something by it).
 
-### Six recommendation modes
+### Common consulting tasks
 
 | Mode | For |
 |---|---|
@@ -40,11 +40,12 @@ It always separates the three registers that get confused in color advice: **vis
 ```
 .
 ├── README.md
+├── AGENTS.md                            ← default project role and working standards
 ├── LICENSE
 ├── CHANGELOG.md
 ├── .gitignore
 └── color-matching-art-consultant/       ← the skill itself (upload this folder)
-    ├── SKILL.md                          ← operating logic, §1–§12
+    ├── SKILL.md                          ← expert core + task-triggered reference loading
     └── references/                       ← deep content, loaded on demand
         ├── reference-pigment-mixing.md
         ├── reference-color-histories.md
@@ -61,7 +62,7 @@ $SKILLS_HOME/<library-name>/
 └── references/
 ```
 
-`SKILL.md` is deliberately lean (~200 lines) and orchestration-focused. The deep content lives in five companion reference files — one per source book — that the agent loads **only when a request needs that book's depth**. This is the progressive-disclosure pattern: small always-loaded file, heavy content on demand.
+`SKILL.md` opens with the consultant’s reasoning voice, followed by a `Loading depth` table. The deep content lives in five companion reference files — one per source book — that the agent loads **only when a request needs that book's depth**. This is the progressive-disclosure pattern: small always-loaded file, heavy content on demand.
 
 > **Note:** `SKILL.md` points at the references by their `references/…` path, and the reference files cross-reference *each other* by bare filename. Keep all five inside `references/`, and keep `references/` beside `SKILL.md`.
 
@@ -100,7 +101,7 @@ The skill triggers on its own when a request matches its `description` — you d
 
 ### Any other LLM
 
-`SKILL.md` §12 contains a self-contained **Final Skill Prompt** you can paste directly as a system prompt. Provide the reference files as attachments, retrieval documents, or context files so the model can consult them on demand.
+Use the complete `SKILL.md` as the instruction text; its expert core is followed by the reference-loading guidance. Provide the reference files as attachments, retrieval documents, or context files so the model can consult them on demand.
 
 ---
 
@@ -144,10 +145,10 @@ Because the architecture is one reference file per book, updates are usually loc
 Issues and pull requests are welcome. Useful contributions include:
 
 - Corrections to pigment behavior, historical claims, or notation
-- Additional worked examples in `SKILL.md` §10
+- Additional worked examples in the relevant reference file
 - Failure cases where the skill over-reaches, gives false precision, or universalizes a cultural claim
 
-Please keep `SKILL.md` lean — new depth belongs in a reference file, with a pointer added from §4 and §8.
+Please keep `SKILL.md` lean — new depth belongs in a reference file, with a task trigger added to the master’s `Loading depth` table.
 
 ---
 

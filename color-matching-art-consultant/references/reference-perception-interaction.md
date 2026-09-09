@@ -1,6 +1,6 @@
 # Reference — Perception & Interaction
 
-> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Josef Albers, *Interaction of Color* (Yale, 2013 ed.). Attribution is at chapter/concept level, using Albers's own named demonstrations. This file explains *why a color changes appearance in context* and gives diagnostics for composition problems. The parent skill points here from its Perception layer (§4), from Studio Critique mode (§8), and from the perception examples (§10). Keep the register practical — this is a diagnostic toolkit, not a perception lecture.
+> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Josef Albers, *Interaction of Color* (Yale, 2013 ed.). Attribution is at chapter/concept level, using Albers's own named demonstrations. This file explains *why a color changes appearance in context* and gives diagnostics for composition problems. The parent skill’s Loading depth table selects this module when its methods are relevant. Keep the register practical — this is a diagnostic toolkit, not a perception lecture.
 
 **Contents**
 - [§1. The core premise](#1-the-core-premise)

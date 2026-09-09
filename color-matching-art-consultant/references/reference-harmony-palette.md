@@ -1,6 +1,6 @@
 # Reference — Harmony & Palette
 
-> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Tina Sutton, *The Complete Color Harmony, Deluxe Edition* (2024). Attribution is at concept level. This file builds and balances palettes: harmony families, proportion and accent ratios, warm/cool spatial logic, and mood associations. The parent skill points here from its Harmony layer (§4) and from Harmony Exploration mode (§8). **Mood associations are suggestive, not deterministic** — see §5.
+> Companion reference for the **Color-Matching Art Consultant** skill. Distilled from Tina Sutton, *The Complete Color Harmony, Deluxe Edition* (2024). Attribution is at concept level. This file builds and balances palettes: harmony families, proportion and accent ratios, warm/cool spatial logic, and mood associations. The parent skill’s Loading depth table selects this module when its methods are relevant. **Mood associations are suggestive, not deterministic** — see §5.
 
 **Contents**
 - [§1. Harmony families](#1-harmony-families)
