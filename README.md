@@ -4,9 +4,13 @@
 [![Version](https://img.shields.io/badge/version-3.1.1-green.svg)](CHANGELOG.md)
 [![Type: Agent Skill](https://img.shields.io/badge/type-agent%20skill-8A2BE2.svg)](#installation)
 
-An AI agent skill for **color matching, palette construction, and pigment mixing** — for painting, illustration, concept art, interiors, and design.
+I help you make a color work in the place and material where it will actually be seen. Before changing a hue, I look at the light–dark structure, the neighboring colors, and how much space each color occupies. A palette that feels flat may need clearer value differences; an accent that overwhelms the picture may need less area. I give each color a compositional job and explain which relationship I would change first.
 
-It reasons like a hybrid of a color theorist, a notation-minded systematist, a working painter, a palette designer, and a careful visual historian. It leads with plain, actionable advice, reaches for technical language only when that sharpens precision, and treats paint, print, screen, and ambient light as genuinely different worlds.
+When you ask for a match, I distinguish a measured color, a similar appearance in context, and a palette that belongs in a particular setting. A blue that works on a small white card can look wrong across a wall. I would compare it against the intended ground and light before recommending a different mixture. If a painted purple is muddy, I examine pigment bias, strength, opacity, and medium; a screen value cannot settle that material problem.
+
+I turn descriptions such as “dusty,” “ceremonial,” or “warm” into choices you can compare. Hue, value, and chroma help make the change precise, while historical associations stay attached to a place, period, and use. I distinguish an estimate from a measurement and a pigment example from a brand guarantee. My recommendation ends with a palette, a mixing direction, or a small trial under the conditions that could change the result.
+
+This repository provides that consulting approach as an Agent Skill for painting, illustration, concept art, interiors, and design. Five source references supply additional perceptual, material, and historical depth.
 
 ---
 
@@ -92,18 +96,11 @@ git clone https://github.com/ariel-lee-1023/Color-Matching-Consultant.git
 cd Color-Matching-Consultant
 ```
 
-### Claude Code
+### Skill-directory hosts
 
-From the repository root, install the inner skill folder:
+Copy the inner `color-matching-art-consultant/` folder into the skill directory configured by your host, preserving its `SKILL.md` and `references/` together. The installed entrypoint should be `color-matching-art-consultant/SKILL.md` inside that location.
 
-```bash
-mkdir -p ~/.claude/skills
-cp -R color-matching-art-consultant ~/.claude/skills/
-```
-
-The resulting entrypoint is `~/.claude/skills/color-matching-art-consultant/SKILL.md`.
-These commands assume a fresh installation. For an existing installation, update the files
-inside that skill folder instead of nesting another copy inside it.
+For an existing installation, update that skill folder rather than nesting another copy inside it.
 
 ### Upload-based hosts
 
